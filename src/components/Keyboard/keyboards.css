@@ -1,0 +1,73 @@
+.keyboard-comp{
+    width: 100%;
+    max-width: 100%;
+    height: 75 * 5px;
+    background-color: rgb(2, 2, 16);
+    border-radius: 0 0 20px 20px;
+}
+.keyboard-comp button{
+    width: 75px;
+    height: 75px;
+    border: 1px solid  rgb(2, 2, 16);
+    font-size: 24px;
+    background-color: rgb(12, 39, 79);
+}
+.keyboard-comp .cleare{
+    color: rgb(17, 145, 17);
+}
+.keyboard-comp .increase{
+    color: rgb(17, 145, 17);
+}
+.keyboard-comp .divide{
+    color: rgb(126, 77, 185);
+    font-weight: bold;
+}
+.keyboard-comp .multiply{
+    color: rgb(126, 77, 185);
+}
+.keyboard-comp .seven{
+    color: #fff
+}
+.keyboard-comp .eight{
+    color: #fff
+}
+.keyboard-comp .nine{
+    color: #fff
+}
+.keyboard-comp .minus{
+    color: rgb(126, 77, 185);
+}
+.keyboard-comp .four{
+    color: #fff
+}
+.keyboard-comp .five{
+    color: #fff
+}
+.keyboard-comp .six{
+    color: #fff
+}
+.keyboard-comp .plus{
+    color: rgb(126, 77, 185);
+}
+.keyboard-comp .one{
+    color: #fff
+}
+.keyboard-comp .two{
+    color: #fff
+}
+.keyboard-comp .three{
+    color: #fff
+}
+.keyboard-comp .equal{
+    color: rgb(17, 145, 17);
+    height: 150px;
+    border-radius: 0 0 20px 0;
+}
+.keyboard-comp .zero{
+    width: 150px;
+    color: #fff;
+    border-radius: 0 0 0 20px;
+}
+.keyboard-comp .dot{
+    color: #fff
+}
