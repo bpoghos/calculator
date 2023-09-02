@@ -1,13 +1,17 @@
 import './App.css';
 import Display from './components/Display/Display';
 import Keyboard from './components/Keyboard/Keyboard';
+import background from './assets/images/image.png'
 
 function App() {
+  console.log(background);
   return (
-    <div className='app'>
+    <div className='background'>
+      <img src={background} alt='background' />
+      <div className='app'>
         <Display />
         <Keyboard />
-
+      </div>
     </div>
   );
 }

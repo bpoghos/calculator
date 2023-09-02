@@ -1,9 +1,26 @@
 .keyboard-comp{
     width: 100%;
     max-width: 100%;
-    height: 75 * 5px;
+    height: 375px;
     background-color: rgb(2, 2, 16);
     border-radius: 0 0 20px 20px;
+    position: relative;
+    max-height: 375px;
+}
+.keyboard-comp .actions-one{
+    width: 300px;
+    height: 75px;
+}
+.keyboard-comp .numbers-and-some-actions-section{
+    display: flex;
+}
+.keyboard-comp .numbers{
+    width: 225px;
+    height: 300px;
+}
+.keyboard-comp .actions-two{
+    width: 75px;
+    height: 300px;
 }
 .keyboard-comp button{
     width: 75px;
@@ -19,11 +36,11 @@
     color: rgb(17, 145, 17);
 }
 .keyboard-comp .divide{
-    color: rgb(126, 77, 185);
+    color: rgb(179, 122, 249);
     font-weight: bold;
 }
 .keyboard-comp .multiply{
-    color: rgb(126, 77, 185);
+    color: rgb(179, 122, 249);
 }
 .keyboard-comp .seven{
     color: #fff
@@ -35,7 +52,7 @@
     color: #fff
 }
 .keyboard-comp .minus{
-    color: rgb(126, 77, 185);
+    color: rgb(179, 122, 249);
 }
 .keyboard-comp .four{
     color: #fff
@@ -47,7 +64,7 @@
     color: #fff
 }
 .keyboard-comp .plus{
-    color: rgb(126, 77, 185);
+    color: rgb(179, 122, 249);
 }
 .keyboard-comp .one{
     color: #fff
