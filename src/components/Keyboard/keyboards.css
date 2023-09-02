@@ -28,6 +28,7 @@
     border: 1px solid  rgb(2, 2, 16);
     font-size: 24px;
     background-color: rgb(12, 39, 79);
+    cursor: pointer;
 }
 .keyboard-comp .cleare{
     color: rgb(17, 145, 17);

@@ -1,6 +1,6 @@
 import './App.css';
-import Display from './components/Display/Display';
-import Keyboard from './components/Keyboard/Keyboard';
+import Display from './components/Display';
+import Keyboard from './components/Keyboard';
 import background from './assets/images/image.png'
 
 function App() {
