@@ -3,9 +3,11 @@ import './display.css'
 
 class Display extends Component {
     render(){
+
+        const {value} = this.props
         return(
             <div className="display-comp">
-                <input type='text' placeholder='0' dir="rtl"/>
+                <h1>{value}</h1>
             </div>
         )
     }

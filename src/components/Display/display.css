@@ -10,23 +10,13 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    text-align: end;
 }
 
-.display-comp input {
-    width: 100%;
+.display-comp h1 {
     padding: 0 16px 0 16px;
     font-size: 60px;
     color: #fff;
-    background-color: transparent;
-    border: none;
-    outline: none;
     margin-bottom: 50px;
-    font-family: 'DM Sans', sans-serif;
-
-}
-
-.display-comp input::placeholder {
-    color: #fff;
-    opacity: 1;
     font-family: 'DM Sans', sans-serif;
 }
